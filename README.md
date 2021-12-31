@@ -1,2 +1,2 @@
 Un forum
-Une interfae d'éhange
+Une interface d'échange
