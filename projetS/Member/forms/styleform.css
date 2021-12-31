@@ -1,0 +1,76 @@
+.form-row {
+    display: block; 
+}
+.form-row .form-holder, .form-row .select {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 18px; 
+}
+.form-row {
+    display: flex;
+    margin-bottom: 18px; 
+}
+.form-row .form-holder {
+      width: 50%;
+      margin-right: 30px; 
+}   
+.form-row .form-holder:last-child {
+        margin-right: 0; 
+}
+.form-row .form-holder.w-100 {
+        width: 100%;
+        margin-right: 0; 
+}
+.form-row .select {
+      width: 50%;
+      margin-right: 30px; 
+}
+.form-row .select .form-holder {
+        width: 100%;
+        margin-right: 0; 
+}
+
+.form-holder {
+    position: relative; 
+}  
+.form-holder i {
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    font-size: 17px; 
+}
+
+.checkbox-tick label {
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 23px;
+    position: relative; 
+}
+.checkbox-tick label.male {
+    margin-right: 50px; 
+}  
+.checkbox-tick input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer; 
+}
+.checkbox-tick input:checked ~ .checkmark {
+    background: #000000; 
+}
+.checkbox-tick input:checked ~ .checkmark:after {
+    display: block; 
+}
+.checkbox-tick .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    font-family: Material-Design-Iconic-Font;
+    color: #fff;
+    font-size: 11px; 
+}
+
+
